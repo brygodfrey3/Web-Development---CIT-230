@@ -1,0 +1,63 @@
+  /*some css rules (other than new css) come from week5,6,7 ponder-prove*/
+            body {margin:0; background-image:url(../images/garden.jpg); background-repeat:repeat-x; background-position:top; }
+
+            header {border-bottom:5px solid blue; color:blue;} 
+            header div {color:green;}	
+            header h2 {text-align:center;}
+            header img {position:absolute; top:2%; right:5%; vertical-align:middle;height:85px; width:133px;border:double;}	
+            header p {margin-top:25px;}
+
+            div#nav {border: dashed thick green;}
+            div#nav ol li {display:inline; padding:2em;  } 
+            nav {color:#00FFFF; background-color:#9FF;margin-top:-25px;}
+            nav {border:double thick red; list-style-type:upper-alpha;}
+
+            div#left-col{position:absolute;left:0%;margin-top:0%; border-left-style:dotted; border-right-style:dotted; width:25%; height:200em;float:left;}
+
+            div#mid-col {margin-left:25%; margin-right:25%; margin-top:0%; width:50%; border: solid thin blue; height:200em;float:left;}/*new css*/	
+            div#mid-col img {height:100px; width:120px;border:double;}
+            div#mid-col p {text-align:center; font-size:14pt;}
+
+            aside{position:absolute; right:0%;margin-top:0%; width:25%; height:200em;border: solid thin blue; list-style:none;} 
+
+            footer {clear:both;position:fixed;top:92%;width:100%; height:200em; border: solid medium black; text-align:center;}
+            div#footer ul li {display:inline; }
+
+            h1.dropcap:first-letter {font-weight: bold; font-size: 36pt; color:yellow;}
+            .sitebranding {font-size:14px; margin-left:25px;margin-top:-25px;}
+            span.docintro {color:rgb(0,0,255);} /*blue*/
+            a:link {color:#000000} /*black*/
+            a:visited {color:rgb(10%,50%,20%);} /*red*/
+            a:hover {color: purple;} /*purple*/
+            a:active {color: rgb(255,255,255);} /*black*/			
+            caption {font-size:1.5em;text-align:left;color:rgb(7,8,45)}
+            table {color:red; }
+            td {color: blue;}
+            caption {font-size:1.5em;text-align:left;color:rgb(7,8,45)}
+            table {color:red;width:85%;border:5px solid red;padding:5px; }
+            td {color: blue;border:1px solid black;width:100px;text-align:center;vertical-align:top;}
+            th {border:1px solid black;}	
+
+            /*apply colors to look like ppt*/	
+            /*header {background-color:#9F9;}*/ 
+            nav {background-color:yellow;}
+            div#left-col {background-color:#F66;}
+            div#mid-col{background-color:green;}
+            div#right-col {background-color:green;}
+            aside {background-color:blue;}
+            footer {background-color:#0CF;}
+            body {background-color:#DDF; border: 1px solid blue; margin-top:-1em;}
+			
+			
+			
+			@media screen and (max-width: 600px) {
+			div#left-col {
+				backgroung-color: yellow;
+			}
+			div#mid-col {
+				background-color: red;
+			}
+			nav {
+			background-color: purple;
+			}
+		}

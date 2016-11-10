@@ -1,0 +1,154 @@
+<!DOCTYPE HTML> 
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>My html Ponder-Prove Experience</title>
+
+        <style type="print/css">        	
+
+            /*some css rules (other than new css) come from week5,6,7 ponder-prove*/
+            body {margin:0;background-image:url(../images/garden.jpg);background-repeat:repeat;background-attachment: fixed;  }
+
+            header {border-bottom:5px solid blue; color:blue;} 
+            header div {color:green;}	
+            header h2 {text-align:center;}
+            header img {height:85px;width:133px;position:absolute;top:2%;right:5%;}	
+            header p {margin-top:25px;}
+
+            div#nav {border: dashed thick green;}
+            div#nav ol li {display:inline; padding:2em;  } 
+            nav {color:#00FFFF; background-color:#9FF;margin-top:-25px;}
+            nav {border:double thick red; list-style-type:upper-alpha;}
+
+            div#left-col{width:25%;height:200em;float:left; }
+
+            div#mid-col {width:50%;height:200em;float:left; }/*new css*/	
+            div#mid-col img {border:double;height:100px;width:120px;}
+            div#mid-col p {text-align:center; font-size:14pt;}
+
+            aside{width:25%;height:200em; list-style:none;float:left;} 
+
+            footer {clear:both;width:100%;text-align:center;float:bottom}
+            div#footer ul li {display:inline; }
+
+            h1.dropcap:first-letter {font-weight: bold; font-size: 36pt; color:yellow;}
+            .sitebranding {font-size:14px; margin-left:25px;margin-top:-25px;}
+            span.docintro {color:rgb(0,0,255);} /*blue*/
+            a:link {color:#000000} /*black*/
+            a:visited {color:rgb(10%,50%,20%);} /*red*/
+            a:hover {color: purple;} /*purple*/
+            a:active {color: rgb(255,255,255);} /*black*/			
+            caption {font-size:1.5em;text-align:left;color:rgb(7,8,45)}
+            table {color:red; }
+            td {color: blue;}
+            caption {font-size:1.5em;text-align:left;color:rgb(7,8,45)}
+            table {color:red;width:85%;border:5px solid red;padding:5px; }
+            td {color: blue;border:1px solid black;width:100px;text-align:center;vertical-align:top;}
+            th {border:1px solid black;}	
+
+            /*apply colors to look like ppt*/	
+            /*header {background-color:#9F9;}*/ 
+            nav {background-color:yellow;}
+            /*div#left-col {background-color:#F66;} */
+            div#mid-col{background-color:green;}
+            div#right-col {background-color:green;}
+            aside {background-color:blue;}
+            footer {background-color:#0CF;}
+            /*body {background-color:#DDF; border: 1px solid blue; margin-top:-1em;} */
+
+        </style>   
+    </head>
+    <body>
+        <p>Posted last on Wednesday February 08 2012</p>
+        <header> 
+            <br>
+            <div>
+				<?php include("../modules/header.php");?>
+
+            </div>
+        </header>
+
+
+        <nav>
+            <div id="nav">
+
+                <ol>
+                    <li>
+                        <a href="week4-ponder-prove2-secondary-page.html">Foods Using Rocks</a>
+                    </li>
+                    <li>
+                        <a href="week9-code-garden.html">History of Rocks</a>
+                  </li>
+                    <li>
+                        <a href="week4-ponder-prove2-secondary-page.html">Rock Therapy</a>
+                    </li>
+                    <li>
+                        <a href="week4-ponder-prove2-secondary-page.html">Rock Clothes</a>
+                    </li>
+                    <li>
+                        <a href="week4-ponder-prove-anchors.html#fx">Rock Jewelry</a>
+                    </li>
+                </ol>
+            </div>
+        </nav>
+
+
+
+
+        <section>
+            <div id="left-col">
+
+                <ul>
+                    <li>
+                        <a href="week4-ponder-prove2-secondary-page.html">Rock Users</a>
+                    </li>
+                    <li>
+                        <a href="week4-ponder-prove2-secondary-page.html">Rock Agenda</a>
+                    </li>
+                    <li>
+                    <a href="week4-ponder-prove2-secondary-page.html">Rock Location</a>
+        			</li>
+                    <li>
+                        <a href="week4-ponder-prove2-secondary-page.html">Goals for Rocks</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div id="mid-col">
+
+                <p style="font-weight:bold; color:yellow; font-size:24px; text-align:center;" >do you love to <b>code,</b> do you? </p>
+
+                <br>
+                <p> <img src="../images/computer-people.jpg" alt="person computing" title="livin the life" /></p>
+
+            </div>
+
+            <aside>
+                <div>
+                    <ol>
+                        <li><a href="http://html-for-dummies.html">Rocks for dummies</a></li>
+                        <li><a href="http://css-for-nerds.html">Rocks for nerds</a></li>
+                        <li><a href="http://php-for-gurus.html">Rocks for gurus</a></li>
+                        <li><a href="http://javasript-for-all.html">Rocks for all</a></li>
+                    </ol>
+                </div>
+            </aside>
+        </section>
+
+
+        <footer>
+            <div id="footer">
+
+                <ul>
+                    <li><a href="copyright.html" class="fs2em">&copy; Copyright</a></li>
+                    <li><a href="week4-ponder-prove-anchors.html#am" class="fs2ex">About Us</a></li>
+                    <li><a href="contactinfo.html" class="fs24px">Contact Information</a></li>
+                    <li><a href="../contacts1/contact-info.html" class="fs120prcnt">Contact Information</a></li>
+                    <li><a href="contacts2/contact-info.html" class="fs24pt">Contact Information</a></li>
+                    <li><a href="week4-ponder-prove-anchors.html#ho" class="fsin">Hours of Operation</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
